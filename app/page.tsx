@@ -2,6 +2,7 @@ import NavBar from "@/common/NavBar";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
 import OurBenefit from "@/components/Home/OurBenefit";
+import RentalCars from "@/components/Home/RentalCars";
 import RentalFleets from "@/components/Home/RentalFleets";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,6 +15,7 @@ export default function Home() {
         <OurBenefit />
         <HowItWorks />
         <RentalFleets />
+        <RentalCars />
       </main>
     </>
   );
