@@ -1,15 +1,19 @@
 import NavBar from "@/common/NavBar";
 import Hero from "@/components/Home/Hero";
+import HowItWorks from "@/components/Home/HowItWorks";
 import OurBenefit from "@/components/Home/OurBenefit";
+import RentalFleets from "@/components/Home/RentalFleets";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <main className="">
+      <main className="overflow-x-hidden">
         <Hero />
         <OurBenefit />
+        <HowItWorks />
+        <RentalFleets />
       </main>
     </>
   );

@@ -3,7 +3,7 @@ import React from "react";
 
 const OurBenefit = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto overflow-hidden my-12">
       <section>
         <div>
           <h1 className="font-extrabold font-sans text-3xl text-center">

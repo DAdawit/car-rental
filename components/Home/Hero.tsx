@@ -12,10 +12,9 @@ const Hero = () => {
           alt="spector"
           fill
           className="w-screen h-[130vh] object-cover brightness-50 -skew-y-6  -translate-y-24 "
-          blurDataURL="/contact.jpg"
+          blurDataURL="/banner1.jpg"
         />
         <div className="absolute top-0  w-full z-10 px-16 py-5  border-b-2 border-gray-200">
-          {/* <NavBar /> */}
           <div className="w-full flex justify-between items-center">
             <div>
               <h1 className="text-white">LOGO</h1>
