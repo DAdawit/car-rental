@@ -11,9 +11,13 @@ const RentalFleets = () => {
           Luxury AutoStar Rental Services
         </h5>
         <p className="max-w-lg text-center self-center mt-7 text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          fugit, est, suscipit illo dolorum libero dolore soluta repellendus
-          quibusdam corrupti nisi voluptatem numquam.
+          Our rental service offers a diverse fleet of vehicles, including
+          economy cars, luxury sedans, SUVs, vans, and trucks, to accommodate
+          any type of trip or occasion. We provide short-term rentals, long-term
+          leases, and one-way rentals with periods ranging from a few hours to
+          several weeks. All of our rental vehicles are regularly serviced and
+          maintained to meet safety standards and are in excellent condition for
+          your use.
         </p>
       </div>
     </div>
