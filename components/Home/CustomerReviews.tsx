@@ -1,7 +1,8 @@
 "use client";
-import { Component } from "react";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import TestimonalCard from "../Cards/TestimonalCard";
 import { Reviews } from "@/data/types";
 import { Review } from "@/data/types";
@@ -30,13 +31,13 @@ export default class CustomerReviews extends Component {
           </section>
 
           <section className="container mx-auto mb-10 shadow-lg rounded-lg max-w-2xl mt-6">
-            {/* <Slider {...settings}>
+            <Slider {...settings}>
               {reviews.map((review: Review) => (
                 <div key={review.Name} className="">
                   <TestimonalCard review={review} />
                 </div>
               ))}
-            </Slider> */}
+            </Slider>
           </section>
         </div>
       </>
