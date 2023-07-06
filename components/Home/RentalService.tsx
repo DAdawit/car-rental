@@ -27,7 +27,7 @@ const RentalService = () => {
             ut aliquip exl dolor in reprehenderit voluptate velit non proident
             sunt in culpa.
           </p>
-          <div className="flex flex-col mt-6 gap-y-3">
+          <div className="flex flex-col mt-6 gap-y-4">
             <div className="flex justify-start gap-3 items-center">
               <div className="">
                 <LocalOfferIcon className="text-3xl text-red-600" />
@@ -108,7 +108,7 @@ const RentalService = () => {
               height={1000}
               width={1000}
               alt="image2"
-              className="h-28 w-28 object-contain  -translate-y-32 translate-x-56"
+              className="h-40 w-40 object-contain  -translate-y-44 translate-x-56"
             />
           </div>
         </div>
