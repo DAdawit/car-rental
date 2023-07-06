@@ -3,6 +3,7 @@ import ContactNumber from "@/components/Home/ContactNumber";
 import CustomerReviews from "@/components/Home/CustomerReviews";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
+import LatestNews from "@/components/Home/LatestNews";
 import OurBenefit from "@/components/Home/OurBenefit";
 import RentalCars from "@/components/Home/RentalCars";
 import RentalFleets from "@/components/Home/RentalFleets";
@@ -22,6 +23,7 @@ export default function Home() {
         <RentalService />
         <ContactNumber />
         <CustomerReviews />
+        <LatestNews />
       </main>
     </>
   );

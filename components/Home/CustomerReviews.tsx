@@ -30,7 +30,7 @@ export default class CustomerReviews extends Component {
             </h3>
           </section>
 
-          <section className="container mx-auto mb-10 shadow-lg rounded-lg max-w-2xl mt-6">
+          <section className="container mx-auto mb-10 shadow-lg rounded-lg max-w-3xl mt-6">
             <Slider {...settings}>
               {reviews.map((review: Review) => (
                 <div key={review.Name} className="">

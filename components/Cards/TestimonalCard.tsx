@@ -10,18 +10,18 @@ const TestimonalCard: React.FC<Props> = ({ review }) => {
   return (
     <>
       <div className="flex justify-between gap-5 ">
-        <div className="self-start">
+        <div className="flex items-center">
           <Image
             src={`${review.image}`}
             blurDataURL={`${review.image}`}
             alt="product image"
             height={400}
             width={400}
-            className="h-52 w-80 object-contain text-center rounded-xl"
+            className="h-52 w-52 object-cover text-center rounded-xl object-top"
           />
         </div>
         <div className="grid">
-          <p className="max-w-lg mt-3 text-sm font-sans tracking-wider text-gray-00 items-center">
+          <p className="max-w-lg mt-3 text-sm font-sans tracking-wider text-gray-00 items-center px-3">
             {review.review}
           </p>
           <div className="items-end mt-10">
