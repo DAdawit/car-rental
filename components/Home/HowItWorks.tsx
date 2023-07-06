@@ -6,7 +6,7 @@ const HowItWorks = () => {
   return (
     <>
       <>
-        <div className="w-screen bg-gray-500 overflow-hidden">
+        <div className="w-screen bg-gradient-to-r from-gray-900 to-gray-700 overflow-hidden">
           <div className="flex flex-col justify-center mx-10 pt-5">
             <h1 className="text-center text-primary font-serif text-2xl font-extrabold text-white tracking-widest mt-10">
               HOW DOES THE
