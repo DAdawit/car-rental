@@ -26,6 +26,5 @@ export const newses = [
     detail:
       "Renting a luxury car can add an extra touch of sophistication and style to your trip. Whether you are attending a special event or just want to make a statement, a luxury car can make all the difference. Our rental fleet includes a wide range of luxury cars to choose from, so you can find the perfect vehicle to suit your style and needs.",
     date: "February 9, 2024",
-  }
-
+  },
 ];
