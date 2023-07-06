@@ -1,5 +1,6 @@
 import NavBar from "@/common/NavBar";
 import ContactNumber from "@/components/Home/ContactNumber";
+import CustomerReviews from "@/components/Home/CustomerReviews";
 import Hero from "@/components/Home/Hero";
 import HowItWorks from "@/components/Home/HowItWorks";
 import OurBenefit from "@/components/Home/OurBenefit";
@@ -20,6 +21,7 @@ export default function Home() {
         <RentalCars />
         <RentalService />
         <ContactNumber />
+        <CustomerReviews />
       </main>
     </>
   );

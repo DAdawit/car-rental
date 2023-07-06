@@ -10,7 +10,7 @@ const ContactNumber = () => {
   return (
     <section className="mt-48">
       <div className="bg-fixed bg-cover bg-center" style={styles2}>
-        <div className="grid grid-cols-1 md:grid-cols-3 py-28 container mx-auto">
+        <div className="px-5 grid grid-cols-1 md:grid-cols-3 py-28 container mx-auto gap-y-3">
           <h1 className="text-2xl font-bold font-serif text-white tracking-wider">
             Booking Your Next Ride
           </h1>
