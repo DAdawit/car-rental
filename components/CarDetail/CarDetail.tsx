@@ -1,5 +1,6 @@
 import React from "react";
 import CarsImage from "./CarsImage";
+import CarDescriptions from "./CarDescriptions";
 
 const CarDetail = () => {
   return (
@@ -11,10 +12,7 @@ const CarDetail = () => {
               <CarsImage />
             </div>
             <div>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              quo, libero mollitia delectus, beatae debitis voluptatibus maiores
-              a deserunt harum, nesciunt facilis doloribus adipisci minus ullam
-              officiis assumenda quasi quisquam!
+              <CarDescriptions />
             </div>
           </div>
           <div>
