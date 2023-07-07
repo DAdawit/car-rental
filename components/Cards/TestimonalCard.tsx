@@ -24,7 +24,7 @@ const TestimonalCard: React.FC<Props> = ({ review }) => {
           <p className="max-w-lg mt-3 text-sm font-sans tracking-wider text-gray-00 items-center px-3">
             {review.review}
           </p>
-          <div className="items-end mt-10">
+          <div className="items-end mt-10 px-3">
             <h1 className="text-lg font-serif tracking-wider font-medium text-primary">
               {review.Name}
             </h1>

@@ -10,15 +10,15 @@ const rokkitt = Open_Sans({
 const Hero = () => {
   return (
     <div className="overflow-hidden">
-      <div className="h-[120vh] w-screen relative ">
+      <div className="h-[60vh] w-screen relative ">
         <Image
-          src="/banner1.jpg"
+          src="/banner6.jpg"
           alt="spector"
           fill
-          className="w-screen h-[130vh] object-cover brightness-50 -skew-y-6  -translate-y-24 "
+          className="w-screen h-[130vh] object-cover brightness-50"
           blurDataURL="/banner1.jpg"
         />
-        <div className="absolute top-0  w-full z-10 px-16 py-3 border-b-[0.5px] border-gray-200">
+        <div className="absolute top-0  w-full z-10 px-16 py-3  border-b-[0.5px] border-gray-200">
           <div className="w-full flex justify-between items-center">
             <div>
               <Image
@@ -51,20 +51,17 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-1/3 w-full">
+        <div className="absolute top-2/3 w-full">
           <div className="flex flex-col justify-center mx-10">
-            <h1
-              className={`text-start text-primary font-serif text-4xl font-extrabold text-white tracking-widest mt-10 ${rokkitt.className}`}
+            <h1 className="text-start text-primary font-serif text-3xl font-extrabold text-white tracking-wider mt-10 ">
+              Forester Subaru
+            </h1>
+            <Link
+              href="/"
+              className="text-start mt-3 text-primary font-serif text-md font-bold tracking-widest text-red-700 font-bolder"
             >
-              Book Your Auto Rental
-            </h1>
-            <h1 className="text-start mt-3 text-primary font-serif text-2xl font-bold tracking-widest text-white font-bolder">
-              Luxury Cars at low-cost, starts{" "}
-              <span className="text-red-700">$75 / day</span>
-            </h1>
-            <h1 className="text-start text-primary font-serif font-bold tracking-widest font-bolder text-white text-2xl">
-              from over 100 premium locations
-            </h1>
+              Home
+            </Link>
           </div>
         </div>
       </div>
