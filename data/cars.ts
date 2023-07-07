@@ -80,3 +80,12 @@ export const cars = [
     horsepower: 203,
   },
 ];
+
+export const carsdetails = [
+  { id: 1, image: "/carsdetail/car1.png" },
+  { id: 2, image: "/carsdetail/car2.png" },
+  { id: 3, image: "/carsdetail/car3.png" },
+  { id: 4, image: "/carsdetail/car4.png" },
+  { id: 5, image: "/carsdetail/car5.png" },
+  { id: 6, image: "/carsdetail/car6.png" },
+];
