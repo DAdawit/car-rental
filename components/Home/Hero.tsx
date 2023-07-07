@@ -17,7 +17,13 @@ const Hero = () => {
         <div className="absolute top-0  w-full z-10 px-16 py-5  border-b-2 border-gray-200">
           <div className="w-full flex justify-between items-center">
             <div>
-              <h1 className="text-white">LOGO</h1>
+              <Image
+                src="/logo.png"
+                height={1000}
+                width={1000}
+                alt="logo image"
+                className="h-10 w-28 object-contain"
+              />
             </div>
             <div className="flex space-x-2 text-white ">
               <Link href="/" className="">

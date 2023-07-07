@@ -19,7 +19,7 @@ const NewsCards: React.FC<Props> = ({ data }) => {
         <CalendarMonthIcon className="tex-sm text-red-600 mt-3" />
         <h1 className="text-xs">{data.date}</h1>
       </div>
-      <h1 className="text-bold tracking-wide font-sans  text-lg hover:underline underline-offset-2">
+      <h1 className="font-bold tracking-wide font-sans  text-lg hover:underline underline-offset-2">
         {data.title}
       </h1>
       <p className="text-gray-800 text-sm font-mono mt-3">{data.detail}</p>
