@@ -1,3 +1,4 @@
+import NavDrawer from "@/common/NavDrawer";
 import NavBar from "@/common/NavBar";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,22 +26,25 @@ const Hero = () => {
                 className="h-10 w-28 object-contain"
               />
             </div>
-            <div className="flex space-x-2 text-white ">
-              <Link href="/" className="">
+            <div className="flex justify-center items-center space-x-2 text-white ">
+              <Link href="/" className="hidden sm:flex">
                 HOME
               </Link>
-              <Link href="/about" className="">
+              <Link href="#about" className="hidden sm:flex">
                 ABOUT US
               </Link>
-              <Link href="/testimonial" className="">
+              <Link href="#testimonial" className="hidden sm:flex">
                 TESTIMONIAL
               </Link>
-              <Link href="/news" className="">
+              <Link href="#news" className="hidden sm:flex">
                 NEWS
               </Link>
-              <Link href="/contactus" className="">
+              <Link href="#contact" className="hidden sm:flex">
                 CONTACT
               </Link>
+              <span className="sm:hidden">
+                <NavDrawer />
+              </span>
             </div>
           </div>
         </div>
