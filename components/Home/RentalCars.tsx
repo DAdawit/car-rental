@@ -5,6 +5,7 @@ import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
 import BoltIcon from "@mui/icons-material/Bolt";
 import { cars } from "@/data/cars";
+import Link from "next/link";
 const RentalCars = () => {
   return (
     <>
@@ -43,9 +44,12 @@ const RentalCars = () => {
                   <h2 className="text-red-600">
                     Birr {car.rentalPricePerDay} / day
                   </h2>
-                  <button className="border-2 px-3 py-1 border-gray-900 hover:bg-red-600 hover:border-red-600 hover:text-white">
+                  <Link
+                    href="/cardetail"
+                    className="border-2 px-3 py-1 border-gray-900 hover:bg-red-600 hover:border-red-600 hover:text-white"
+                  >
                     RENT IT
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
