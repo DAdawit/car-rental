@@ -9,15 +9,15 @@ type Props = {
 const TestimonalCard: React.FC<Props> = ({ review }) => {
   return (
     <>
-      <div className="flex justify-between gap-5 ">
-        <div className="flex items-center">
+      <div className="flex flex-col sm:flex-row justify-between gap-5 ">
+        <div className="flex justify-center">
           <Image
             src={`${review.image}`}
             blurDataURL={`${review.image}`}
             alt="product image"
             height={400}
             width={400}
-            className="h-52 w-52 object-cover text-center rounded-xl object-top"
+            className="h-52 w-52 self-center object-cover text-center rounded-xl object-top"
           />
         </div>
         <div className="grid">
