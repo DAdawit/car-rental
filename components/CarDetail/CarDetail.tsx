@@ -8,11 +8,11 @@ import BookingCalander from "./BookingCalander";
 const CarDetail = () => {
   return (
     <>
-      <div className="container mx-auto px-5 sm:px-0 mt-5">
+      <div className="container mx-auto px-5 sm:px-0 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className=" flex flex-col">
             <div>
-              <h1 className="text-3xl font-extrabold font-serif tracking-wider">
+              <h1 className="text-3xl font-extrabold font-serif tracking-wider my-2">
                 Forester Subaru
               </h1>
               <CarsImage />
