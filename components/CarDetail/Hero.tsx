@@ -11,13 +11,15 @@ const Hero = () => {
   return (
     <div className="overflow-hidden">
       <div className="h-[40vh] sm:h-[50vh] w-screen relative ">
-        <Image
-          src="/banner6.jpg"
-          alt="spector"
-          fill
-          className="w-screen h-[130vh] object-cover brightness-50"
-          blurDataURL="/banner1.jpg"
-        />
+        <Link href="/">
+          <Image
+            src="/banner6.jpg"
+            alt="spector"
+            fill
+            className="w-screen h-[130vh] object-cover brightness-50"
+            blurDataURL="/banner1.jpg"
+          />
+        </Link>
         <div className="absolute top-0  w-full z-10 px-16 py-3  border-b-[0.5px] border-gray-200">
           <div className="w-full flex justify-between items-center">
             <div>
