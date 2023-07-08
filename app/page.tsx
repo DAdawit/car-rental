@@ -38,9 +38,9 @@ export default function Home() {
         <section id="news">
           <LatestNews />
         </section>
-        <section className="bg-gray-900 mt-16 py-10">
+        {/* <section className="bg-gray-900 mt-16 py-10">
           <Footer />
-        </section>
+        </section> */}
 
         {/* <MoveToTop /> */}
         <Link
