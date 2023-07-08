@@ -10,7 +10,7 @@ const rokkitt = Open_Sans({
 const Hero = () => {
   return (
     <div className="overflow-hidden">
-      <div className="h-[60vh] w-screen relative ">
+      <div className="h-[40vh] sm:h-[50vh] w-screen relative ">
         <Image
           src="/banner6.jpg"
           alt="spector"
@@ -51,14 +51,14 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-2/3 w-full">
+        <div className="absolute top-36 w-full">
           <div className="flex flex-col justify-center mx-10">
             <h1 className="text-start text-primary font-serif text-3xl font-extrabold text-white tracking-wider mt-10 ">
               Forester Subaru
             </h1>
             <Link
               href="/"
-              className="text-start mt-3 text-primary font-serif text-md font-bold tracking-widest text-red-700 font-bolder"
+              className="text-start mt-10 w-max text-primary font-serif text-md font-bold tracking-wide text-red-500 hover font-bolder hover:underline underline-offset-2"
             >
               Home
             </Link>
