@@ -13,13 +13,13 @@ const Review = () => {
             type="text"
             name="name"
             placeholder="Name"
-            className="h-11 px-3 w-full border-2 "
+            className="h-11 px-3 w-full border-[1px] border-gary-800 "
           />
           <input
             type="email"
             name="name"
             placeholder="Email"
-            className="h-11 px-3 w-full border-2 "
+            className="h-11 px-3 w-full border-[1px] border-gray-800"
           />
           <textarea
             name=""
@@ -27,7 +27,7 @@ const Review = () => {
             cols={30}
             rows={10}
             placeholder="comment"
-            className=" px-3 w-full border-2 "
+            className=" px-3 w-full border-[1px] border-gray-800"
           ></textarea>
 
           <button className="text-white bg-red-700 px-5 py-3 w-max">
