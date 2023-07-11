@@ -64,7 +64,7 @@ const CarDescriptions = () => {
             </div>
           </TabPanel>
           <TabPanel value="2">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-2">
               <div className="grid gap-y-3 text-sm">
                 <h3 className=" text-gray-800 font-sans">
                   <span className="text-red-600">+</span>Pay at Pick-Up
@@ -75,16 +75,12 @@ const CarDescriptions = () => {
                 <h3 className=" text-gray-800 font-sans">
                   <span className="text-red-600">+</span>Chilled
                 </h3>
-              </div>
-              <div className="grid gap-y-3 text-sm">
+
                 <h3 className=" text-gray-800 font-sans">
                   <span className="text-red-600">+</span>Automatic
                 </h3>
                 <h3 className=" text-gray-800 font-sans">
                   <span className="text-red-600">+</span>Free cancellation
-                </h3>
-                <h3 className=" text-gray-800 font-sans">
-                  <span className="text-red-600">+</span>Unlimited Mileage
                 </h3>
               </div>
               <div className="grid gap-y-3 text-sm">
@@ -96,6 +92,9 @@ const CarDescriptions = () => {
                 </h3>
                 <h3 className=" text-gray-800 font-sans">
                   <span className="text-red-600">+</span>Heated seats
+                </h3>
+                <h3 className=" text-gray-800 font-sans">
+                  <span className="text-red-600">+</span>Unlimited Mileage
                 </h3>
               </div>
             </div>
